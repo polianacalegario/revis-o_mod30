@@ -4,6 +4,16 @@ body {
     text-align: center;
 }
 
+/* Keyframe Animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 header {
     background-color: #d5a0cf;
     padding: 20px 0;
